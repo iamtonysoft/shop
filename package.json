@@ -1,0 +1,44 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "Tony's Online Shop",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "npm run prod -- --watch",
+    "dev": "set NODE_ENV=development&&webpack",
+    "prod": "set NODE_ENV=production&&webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamtonysoft/shop.git"
+  },
+  "keywords": [
+    "Web",
+    "Design",
+    "Programming",
+    "HTML"
+  ],
+  "author": "Anthony L. Cortez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamtonysoft/shop/issues"
+  },
+  "homepage": "https://github.com/iamtonysoft/shop#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.5",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "uikit": "^3.0.0-beta.30"
+  }
+}
