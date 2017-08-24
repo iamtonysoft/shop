@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan');
+
+.header-title {
+    font-family: 'Baloo Bhaijaan', cursive;
+}
+
 .uk-text-background {
     background-color: rgb(255, 157, 0);
+}
+
+.uk-label {
+    background: #f8f8f8;
+    color: #000000;
 }
