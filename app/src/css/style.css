@@ -8,7 +8,12 @@
     background-color: rgb(255, 157, 0);
 }
 
-.uk-label {
+.label-white {
     background: #f8f8f8;
     color: #000000;
+}
+
+.label-dark {
+    background: #222;
+    color: #fff;
 }
